@@ -16,11 +16,9 @@
 <br>3) Inputting the desired target for scanning
 <br>4) Optionally specifying top ports to scan<br><br>
 
-![image](https://user-images.githubusercontent.com/123561773/227210292-1a488142-1d35-45d0-9990-070dcb660a71.png)
+<img width="840" alt="image" src="https://user-images.githubusercontent.com/123561773/227214721-6ef8d0fb-6cb5-44f5-8c2c-f4558a085cb4.png">
 
 <br>5) Nmap scan is done and if there is an HTTP service, Nikto and Dirb scan is started for that port.</p>
-
-<img width="794" alt="image" src="https://user-images.githubusercontent.com/123561773/227055478-f9568db9-d73b-4dc4-a733-f20b2da4edf1.png">
 
 ###
 
