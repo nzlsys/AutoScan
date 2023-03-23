@@ -22,9 +22,9 @@ def scan_type(type):
         else:
             print("Invalid input. Please enter 'y' or 'n'") 
 
-print("\nWelcome to IP Scanning Tool\n-------------------------------------------------------\nPlease specify from the list below what you want to do.")
+print("\nWelcome to AutoScan Tool\n-------------------------------------------------------\nPlease specify from the list below what you want to do.")
 while True:
-    i=input("1)Scanning an IP or IP range \n2)Scanning IPs from a given file\n")
+    i=input("1)Scanning an IP or IP range \n2)Scanning from a list of targets \n")
     if i=='1':
         ip=str(input("Please enter the target: (Range format is: 192.168.1.1-80)\n")) 
         scan_type('nmap')
