@@ -2,7 +2,7 @@ import os
 
 def nmap(ip): 
     file=open(f"Report-for-{ip}.txt",'w') # creating a report file   
-    file.write(f'\n\n\t\t\tAUTO SCAN REPORT for host: {ip}\n\n')
+    file.write(f'\n\n\t\t\tAUTOSCAN REPORT for target: {ip}\n\n')
     nmapfile=open(f'Nmap-for-{ip}.txt','r') # reading the nmap output file
     lines=nmapfile.read()
     content=f"Nmap Scan for {ip}: {lines}"
