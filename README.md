@@ -1,9 +1,10 @@
 
 <h1 align="left">Description</h1>
-<img width="480" alt="image" src="https://user-images.githubusercontent.com/123561773/227210707-7fb67da7-bdf9-4be6-9195-8d110468f143.png">
 
 <br clear="both">
 <p align="left">Autoscan is a scanning tool mixed of nmap, nikto and dirb. The tool performs the following steps:<br>* It uses Nmap to scan for open ports on a target system.<br>* If an HTTP service is found, it proceeds to the next step.<br>* It launches two other scanning tools - Nikto and Dirb - to scan for vulnerabilities and directories on the HTTP service.<br>* After all scans are completed, it generates a report that shows the results of all scans, including the results of the Nmap, Nikto, and Dirb scans.</p>
+<img width="480" alt="image" src="https://user-images.githubusercontent.com/123561773/227210707-7fb67da7-bdf9-4be6-9195-8d110468f143.png">
+
 
 
 
